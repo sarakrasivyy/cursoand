@@ -9,25 +9,25 @@
     android:gravity="center_horizontal"
     android:padding="64dp"
     tools:context=".MainActivity">
-
-
-    <EditText
-        android:id="@+id/etmessage"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="escribe"/>
+<EditText
+    android:id="@+id/etmensaje"
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    android:hint="escribe"
+    android:layout_margin="16dp"
+    android:autofillHints="no"/>
     <Button
         android:id="@+id/btplay"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="play"
         android:layout_margin="16dp"/>
 
-
     <TextView
-        android:id="@+id/textview"
+        android:id="@+id/txstatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="beggin "/>
+        android:text="beggin me"/>
+
 
 </LinearLayout>
