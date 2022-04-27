@@ -43,6 +43,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         if (status == TextToSpeech.SUCCESS){
             findViewById<TextView>(R.id.txstatus).text = "listo"
             tts!!.language = Locale("ES")
+
         } else {
             findViewById<TextView>(R.id.txstatus).text = "lno isto"
         }
